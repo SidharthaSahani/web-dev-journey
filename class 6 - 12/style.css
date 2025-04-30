@@ -1,0 +1,58 @@
+/* 
+
+#outer{
+    border: 5px solid black;
+    height: 200px;
+    width: 70px;
+}
+
+.inner{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 50%;
+
+} */
+
+/* h2{
+    background-color: greenyellow;
+    display: inline;
+}
+
+span{
+    background-color: purple;
+    display: block;
+    margin: 2px;
+} */
+
+/* 
+div{
+   height: 150px;
+   width: 300px;
+   background-color: gray;
+   border: 5px dashed black;
+   margin-top: 20px;
+   margin-right: 1em;
+   margin-bottom: 40px;
+   margin-left: 2em;
+   padding: 1em;
+} */
+
+
+/* div{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: inline-block;
+} */
+
+ul li{
+    display:inline; 
+    /* display: flex; */
+    padding: 2px;
+    background-color: aqua;
+}
+

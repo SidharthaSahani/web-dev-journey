@@ -1,0 +1,378 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    margin:0;
+    background-color: rgb(70, 68, 68);
+    color: white;
+    overflow: hidden;
+}
+
+.main{
+    display: flex;
+    height: 100vh;
+    padding: 0.25rem;
+    
+}
+
+.sidebar{
+    border-radius: 1rem;
+    background-color:  rgb(70, 68, 68);
+    width: 300px;
+    margin-right: 0.25rem;
+    overflow: hidden;
+    
+   
+}
+
+
+.main-content{
+    background-color: #000000;
+    flex: 1;
+    border-radius: 1rem;
+    overflow: auto;
+
+    
+}
+
+.music-player{
+    background-color: rgb(0, 0, 0);
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+}
+/* nav bar  */
+ .nav{
+    background-color: rgb(34, 34, 34);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height:100px;
+    /* padding: 0.5rem 0.75rem; */
+    
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.nav-option{
+    opacity: 0.5;
+    line-height: 2.5rem;
+    padding: 0.5rem 0.75rem;
+}
+
+.nav-option:hover{
+    opacity: 1;
+}
+
+.nav-option i{
+    font-weight: 1.25rem; 
+}
+
+.nav-option a{
+    font-size: 1rem;
+    margin-left: 0.5rem;
+}
+
+/* libarary secton */
+
+.libarary {
+    background-color: rgb(34, 34, 34);
+    border-radius: 1rem;
+    height: 100%;
+margin-top: 0.12rem;
+padding: 0.5rem 0.5rem;
+
+    
+}
+
+.options{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lib-option img {
+    height: 1rem;
+    width: 1.5rem;
+
+}
+
+.icons{
+    font-size: 1.5rem;
+    display: flex;
+  
+
+}
+
+.icons i{
+    margin-right:  0.5rem;
+    padding: 0rem 0.25rem;
+    opacity: 0.7;
+}
+
+.icons i:hover{
+    opacity: 1;
+}
+
+/* lib boxes  */
+
+ .box{
+    height:auto;
+    background-color: 	 rgb(40, 37, 37);
+    border-radius: 1rem;
+    margin: 0.75rem 0 1rem 0;
+    padding: 1rem 1.25rem;
+}
+
+.box-p1{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.box-p2{
+    font-size: 0.75rem;
+    opacity: 0.8;
+
+}
+
+.badge{
+    /* font-size: 1.25rem; */
+    background-color: white;
+    color: black;
+    border-radius: 2rem;
+    text-align: center;
+    border: none;
+    padding: 0.25rem 1rem ;
+    font-weight: 700;
+    height: 2rem;
+    width: fit-content;
+    /* margin-top: 0.75rem; */
+}
+
+/* sticky nav bar  */
+
+.sticky-nav {
+    position: sticky;
+    top: 0;
+    background-color: rgb(32, 32, 32);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0 1rem 0 ;  
+
+    z-index: 10;
+}
+
+.nav-icons img{
+    height: 1.75rem;
+    width: 1.75rem;
+    margin-left: 0.5rem;
+}
+
+
+
+.sticky-btn {
+display: flex;   
+align-items: center;
+justify-content: center;
+
+
+}
+
+.sticky-btn .bg-2{
+    background-color: black;
+    color: white;
+
+}
+
+.sticky-btn button {
+    margin-right:1rem ;
+
+}
+
+.sticky-btn i {
+    margin-right:1rem ;
+
+}
+
+/* card container  */
+.card-container {
+    display: flex;
+    margin: 5px;
+    margin: 0.5rem 1rem ;
+    flex-wrap: wrap;
+    /* justify-content: space-evenly; */
+    
+}
+
+
+
+.card {
+    background-color: rgb(41, 42, 42);
+    width:150px;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+ 
+    
+
+}
+
+.card img {
+    
+   width: 100%;
+   border-radius: 0.5rem;
+    
+}
+
+.card-title{
+    font-weight: 600;
+}
+
+.card-info{
+    font-size: 0.75rem;
+    opacity: 0.5;
+}
+
+
+ .footer{
+    height: 250px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+} 
+
+.line{
+    width: 90%;
+    height: 60%;
+    border-top: 1px solid white;
+}
+
+/* music player */
+
+.music-player{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.albumb{
+    width: 25%;
+}
+
+.controls{
+    width: 25%;
+}
+.player-control {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+
+.player{
+    width: 50%;
+    
+    background-color: rgb(0, 0, 0);
+   
+    
+}
+
+.player-control-icon {
+    height: 1rem;
+    margin-right: 1.75rem;
+    opacity: 0.75;
+    
+}
+
+.player-control-icon:hover{
+    opacity: 1;
+}
+
+.playback-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.progress-bar {
+    width: 70%;
+}
+
+/* kumar sanu */
+.albumb{
+    display: flex;
+    height: 60px;
+    width: 375px;
+    align-items: center;
+   justify-content: space-evenly;
+    margin: 0.12rem;
+    padding: 0.12rem;
+ 
+}
+.album-img  {
+    height: 50px;
+    display: flex;
+    padding-right: 15px;
+    justify-content: center;
+    /* align-items: center; */
+    
+}
+
+.album-img img {
+
+    /* border-radius: 0.12rem; */
+    
+}
+
+.albumb i {
+    font-size:18px;
+    opacity: 0.75;
+}
+
+.albumb i:hover{
+    opacity: 1;
+}
+
+
+/* controls item */
+
+.controls{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+     margin: 0.12rem;
+     padding: 0.12rem;
+     width: 365px;
+     height: 32px;
+  
+
+}
+
+.controls-item {
+    display: flex;
+    justify-content: space-evenly;
+  
+
+}
+
+.controls-item i:hover {
+    opacity: 1;
+}
+
+.controls-item i {
+    margin: 20px;
+    font-size:18px;
+    opacity: 0.5;
+  
+}
+
+   

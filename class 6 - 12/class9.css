@@ -1,0 +1,28 @@
+h1{
+    text-align: center;
+}
+
+#container{
+    height: 400px;
+    width: 80%;
+    border: 2px solid black;
+    background-color: aliceblue;
+    margin: 2px auto;
+    display:flex ;  
+    flex-direction: row;
+    /* justify-content: center; */
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    /* flex-wrap:wrap-reverse; */
+}
+#org{
+    flex-basis: 20px;
+}
+
+#container div {
+    height: 100px;
+    width: 500px;
+    color: white;
+    text-align: center;
+    font: 1.5em;
+}
