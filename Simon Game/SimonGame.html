@@ -7,10 +7,14 @@
     <link rel="stylesheet" href="SimonGame.css">
 </head>
 <body>
+    
+
     <h1>Simon Game</h1>
     <h2>Press any key to start</h2>
+   
 
     <div class="btn-container">
+        
         <div class="line-1">
             <div class="btn red " type = "button" id="red"></div>
             <div class="btn yellow" type = "button" id="yellow"></div>
@@ -20,10 +24,32 @@
               <div class="btn green" type = "button" id="green"></div>
                <div  class="btn purple" type = "button" id="purple"></div>
         </div>
-     
-
     </div>
 
+
+     <div class="sidebar">
+        <div class="rule">
+            <h2>🧠 Game Rules</h2>
+            <li>Press any key to start the game.</li>
+            <li>Memorize and repeat the sequence of flashes.</li>
+            <li>You have three rounds to get the best score.</li>
+            <li>If your input doesn't match the game's sequence — Game Over!</li>
+            <li>The high score is updated only if your score beats the previous one.</li>
+        </div>
+
+        <div class="play">
+            <h2>💡 How to Play </h2>
+            <li>Click on the color buttons in the same order as the game flashes them.</li>
+            <li>After completing 3 rounds or failing, the game shows your score.</li>
+            <li>Your best score is saved automatically until the browser cache is cleared.</li>
+                
+               
+        </div>
+       
+    </div> 
+
+
+    
     <script src="SimonGame.js"></script>
 </body>
 </html>
