@@ -52,15 +52,30 @@ for (delBtn of delBtns) {
     delBtn.addEventListener("click", function () {
         let par = this.parentElement;
         console.log(par);
-        par.remove()
+        par.remove();
     });
 }
 
-// this is after update
+ul.addEventListener("click", function (event) {
+    if (event.target.this.nodeName == "button") {
+        let listItem = event.target.parentElement;
+        listItem.remove(listItem);
+        console.log("delted");
+    }
+});
 
 
 
 
+
+// PS C:\Users\T U F\OneDrive\Desktop\WEBDEVELOPMENT> echo "# web-dev-journey" >> README.md
+// >> git init
+// >> git add README.md
+// >> git commit -m "first commit"
+// >> git branch -M main
+// >> git remote add origin https://github.com/SidharthaSahani/web-dev-journey.git
+// >> git push -u origin main
+// PS C:\Users\T U F\OneDrive\Desktop\WEBDEVELOPMENT> echo "# web-dev-journey" >> README.md
 
 
 
