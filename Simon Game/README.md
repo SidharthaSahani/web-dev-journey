@@ -1,6 +1,7 @@
 🎮 Simon Game - JavaScript Project
 This is a fun and interactive Simon Game built using HTML, CSS, and JavaScript. The objective is to remember and repeat the sequence of glowing buttons. Each level adds a new button to the sequence, challenging your memory!
-
+<br>
+<br>
 🚀 Features
 <li>Four colorful buttons: Red, Green, Yellow, Purple</li>
 
@@ -17,14 +18,16 @@ This is a fun and interactive Simon Game built using HTML, CSS, and JavaScript. 
 <li>Visual feedback using flashing effects</li>
 
 <li>Game over screen with a restart prompt</li>
-
+<br>
+<br>
 🛠 Technologies Used
 <li>HTML5</li>
 
 <li>CSS3</li>
 
 <li>JavaScript (Vanilla)</li>
-
+<br>
+<br>
 🧠 Game Rules
 <li>Press any key to start the game.</li>
 
@@ -36,7 +39,8 @@ This is a fun and interactive Simon Game built using HTML, CSS, and JavaScript. 
 
 <li>The high score is updated only if your score beats the previous one.</li>
 
-
+<br>
+<br>
 💡 How to Play
 
 <li>Click on the color buttons in the same order as the game flashes them.</li>
