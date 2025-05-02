@@ -38,6 +38,7 @@ This is a fun and interactive Simon Game built using HTML, CSS, and JavaScript. 
 
 
 💡 How to Play
+
 <li>Click on the color buttons in the same order as the game flashes them.</li>
 
 <li>After completing 3 rounds or failing, the game shows your score.</li>
